@@ -5,5 +5,5 @@
 		<email>gentoo@jonglieren-jena.de</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Transclude text content via links</longdescription>
+	<longdescription>Display bookmarks in an ibuffer way</longdescription>
 </pkgmetadata>
