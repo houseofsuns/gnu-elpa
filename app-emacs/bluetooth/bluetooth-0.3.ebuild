@@ -4,7 +4,7 @@
 EAPI=8
 
 REPO_URI="https://elpa.gnu.org/packages/"
-SOURCE_TYPE="single"
+SOURCE_TYPE="tar"
 REALNAME="bluetooth"
 DIGEST_SOURCES="yes"
 
