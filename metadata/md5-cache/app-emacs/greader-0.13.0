@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/soap-client
-DESCRIPTION=SOAP library to access debbugs servers
+DEPEND=app-emacs/seq app-emacs/compat
+DESCRIPTION=Gnamù reader, send buffer contents to a speech engine
 EAPI=8
-HOMEPAGE=https://elpa.gnu.org/packages/debbugs.html
+HOMEPAGE=https://gitlab.com/michelangelo-rodriguez/greader
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/soap-client >=app-editors/emacs-25.3:*
+RDEPEND=app-emacs/seq app-emacs/compat >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://elpa.gnu.org/packages/debbugs-0.45.tar
+SRC_URI=https://elpa.gnu.org/packages/greader-0.13.0.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=fe700f7ada38830f4965f1c4d5302730
+_md5_=15630e4266c0d56829211816e6e143e8
