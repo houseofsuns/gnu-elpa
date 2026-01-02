@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=API to react to buffer modifications
+DEPEND=app-emacs/async app-emacs/xr
+DESCRIPTION=A Chinese input method support quanpin, shuangpin, wubi, cangjie and rime.
 EAPI=8
-HOMEPAGE=https://elpa.gnu.org/packages/track-changes.html
+HOMEPAGE=https://github.com/tumashu/pyim
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-25.3:*
+RDEPEND=app-emacs/async app-emacs/xr >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://elpa.gnu.org/packages/track-changes-1.4.tar
+SRC_URI=https://elpa.gnu.org/packages/pyim-5.3.6.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=16e0aa19bfe87dd08c80020736a160c0
+_md5_=a413670b5d4b5e969644c0fa23b2cd18
