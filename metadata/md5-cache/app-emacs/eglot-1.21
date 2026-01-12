@@ -8,6 +8,6 @@ INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
 RDEPEND=app-emacs/eldoc app-emacs/external-completion app-emacs/flymake app-emacs/jsonrpc app-emacs/project app-emacs/seq app-emacs/xref >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://elpa.gnu.org/packages/eglot-1.19.tar
+SRC_URI=https://elpa.gnu.org/packages/eglot-1.21.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
 _md5_=b76868eddc69ffe30f42efabe669363a
