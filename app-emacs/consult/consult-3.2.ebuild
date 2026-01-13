@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Consulting completing-read"
+DESCRIPTION="Search and navigate via completing-read"
 
 HOMEPAGE="https://github.com/minad/consult"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
