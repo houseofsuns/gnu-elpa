@@ -1,12 +1,12 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Simple Unit Test Framework for Emacs Lisp
+DESCRIPTION=major mode for editing verilog source in Emacs
 EAPI=8
-HOMEPAGE=https://github.com/rocky/emacs-test-simple
+HOMEPAGE=https://www.veripool.org
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
 RDEPEND=>=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://elpa.gnu.org/packages/test-simple-1.3.1.tar
+SRC_URI=https://elpa.gnu.org/packages/verilog-mode-2026.1.18.88738971.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=eadcf12c15396511022ece826133ac10
+_md5_=3c7b803878ce7fac18376ab7b8e1e052
