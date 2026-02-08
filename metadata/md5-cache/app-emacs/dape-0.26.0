@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/auctex
-DESCRIPTION=Automatic previews in AUCTeX
+DEPEND=app-emacs/jsonrpc
+DESCRIPTION=Debug Adapter Protocol for Emacs
 EAPI=8
-HOMEPAGE=https://github.com/ultronozm/preview-auto.el
+HOMEPAGE=https://github.com/svaante/dape
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/auctex >=app-editors/emacs-25.3:*
+RDEPEND=app-emacs/jsonrpc >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://elpa.gnu.org/packages/preview-auto-0.4.1.tar
+SRC_URI=https://elpa.gnu.org/packages/dape-0.26.0.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=0bc625c25f80f5a73741778f3b1a3985
+_md5_=2374b1fc2d9688c46bf5abb206222526

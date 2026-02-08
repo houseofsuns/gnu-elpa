@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Generic context-sensitive action dispatcher."
 
-HOMEPAGE="https://git.sr.ht/~pkal/do-at-point"
+HOMEPAGE="https://codeberg.org/pkal/do-at-point.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
