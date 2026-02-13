@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://elpa.gnu.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="lin"
+REALNAME="futur"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Make \`hl-line-mode' more suitable for selection UIs"
+DESCRIPTION="Future/promise-based async library"
 
-HOMEPAGE="https://github.com/protesilaos/lin"
+HOMEPAGE="https://elpa.gnu.org/packages/futur.html"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
