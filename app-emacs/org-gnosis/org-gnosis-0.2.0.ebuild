@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Roam-like Knowledge Management System"
+DESCRIPTION="Learning-focused note-taking for Gnosis"
 
 HOMEPAGE="https://thanosapollo.org/projects/org-gnosis/"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
