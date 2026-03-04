@@ -5,20 +5,18 @@ EAPI=8
 
 REPO_URI="https://elpa.gnu.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="org-real"
+REALNAME="boxy"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Keep track of real things as org-mode links"
+DESCRIPTION="A boxy layout framework"
 
-HOMEPAGE="https://gitlab.com/grinn.amy/org-real"
+HOMEPAGE="https://codeberg.org/strawburster/boxy"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/boxy
-	app-emacs/org-mode"
-RDEPEND="app-emacs/boxy
-	app-emacs/org-mode"
+DEPEND=""
+RDEPEND=""

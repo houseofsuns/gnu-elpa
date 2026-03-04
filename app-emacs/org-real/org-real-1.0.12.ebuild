@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://elpa.gnu.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="boxy-headings"
+REALNAME="org-real"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="View org files in a boxy diagram"
+DESCRIPTION="Keep track of real things as org-mode links"
 
-HOMEPAGE="https://gitlab.com/grinn.amy/boxy-headings"
+HOMEPAGE="https://codeberg.org/strawburster/org-real"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

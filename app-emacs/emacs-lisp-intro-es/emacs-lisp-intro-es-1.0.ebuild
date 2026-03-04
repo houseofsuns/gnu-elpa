@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://elpa.gnu.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="boxy"
+REALNAME="emacs-lisp-intro-es"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A boxy layout framework"
+DESCRIPTION="ELisp intro manual in Spanish"
 
-HOMEPAGE="https://gitlab.com/grinn.amy/boxy"
+HOMEPAGE="https://elpa.gnu.org/packages/emacs-lisp-intro-es.html"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
