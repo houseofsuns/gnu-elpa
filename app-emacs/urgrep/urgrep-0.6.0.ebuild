@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Universal recursive grep"
 
-HOMEPAGE="https://github.com/jimporter/urgrep"
+HOMEPAGE="https://sr.ht/~jimporter/urgrep/"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
