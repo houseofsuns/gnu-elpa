@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Tramp integration for systemd-nspawn containers"
 
-HOMEPAGE="https://github.com/bjc/tramp-nspawn"
+HOMEPAGE="https://git.spork.org/tramp-nspawn.git"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
