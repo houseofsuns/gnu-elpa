@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Simple, non-blocking IMAP email client"
 
-HOMEPAGE="https://github.com/astoff/minimail"
+HOMEPAGE="https://codeberg.org/astoff/minimail"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
