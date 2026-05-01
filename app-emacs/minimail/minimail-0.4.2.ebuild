@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://elpa.gnu.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="gnosis"
+REALNAME="minimail"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Knowledge System"
+DESCRIPTION="Simple, non-blocking IMAP email client"
 
-HOMEPAGE="https://thanosapollo.org/projects/gnosis"
+HOMEPAGE="https://codeberg.org/astoff/minimail"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/compat"
-RDEPEND="app-emacs/compat"
+DEPEND="app-emacs/transient"
+RDEPEND="app-emacs/transient"
