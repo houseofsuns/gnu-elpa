@@ -18,7 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/markdown-mode
-	app-emacs/keymap-popup"
-RDEPEND="app-emacs/markdown-mode
-	app-emacs/keymap-popup"
+DEPEND="app-emacs/keymap-popup"
+RDEPEND="app-emacs/keymap-popup"
