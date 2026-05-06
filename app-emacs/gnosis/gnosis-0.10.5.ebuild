@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Knowledge System"
 
-HOMEPAGE="https://thanosapollo.org/projects/gnosis"
+HOMEPAGE="https://codeberg.org/thanosapollo/emacs-gnosis"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
