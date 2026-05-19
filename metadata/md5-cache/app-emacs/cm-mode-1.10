@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/plz app-emacs/dash
-DESCRIPTION=Code completion using LLM
+DESCRIPTION=Minor mode for CriticMarkup
 EAPI=8
-HOMEPAGE=https://github.com/milanglacier/minuet-ai.el
+HOMEPAGE=https://elpa.gnu.org/packages/cm-mode.html
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/plz app-emacs/dash >=app-editors/emacs-26.3:*
+RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://elpa.gnu.org/packages/minuet-0.7.1.tar
+SRC_URI=https://elpa.gnu.org/packages/cm-mode-1.10.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=a8ac149429061c9be95f0940ef2c4eb0
+_md5_=7bea28cee1fcdb304155056f0ced2719
