@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Described keymaps with popup help"
 
-HOMEPAGE="https://codeberg.org/thanosapollo/emacs-keymap-popup"
+HOMEPAGE="https://git.thanosapollo.org/emacs-keymap-popup/"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
