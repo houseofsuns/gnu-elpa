@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Flymake backend for harper"
+DESCRIPTION="Flymake backend for Harper"
 
 HOMEPAGE="https://codeberg.org/pkal/flymake-harper.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
