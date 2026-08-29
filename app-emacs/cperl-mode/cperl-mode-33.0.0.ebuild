@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Perl code editing commands"
 
-HOMEPAGE="https://github.com/HaraldJoerg/cperl-mode/issues/32"
+HOMEPAGE="https://elpa.gnu.org/packages/cperl-mode.html"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
