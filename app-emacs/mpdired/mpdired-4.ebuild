@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="A dired-like client for Music Player Daemon"
 
-HOMEPAGE="https://elpa.gnu.org/packages/mpdired.html"
+HOMEPAGE="https://elpa.gnu.org/nongnu/mpdired.html"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
