@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Automatically preview file at point in Dired"
+DESCRIPTION="Automatically preview files in Dired"
 
 HOMEPAGE="https://github.com/protesilaos/dired-preview"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
