@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Major mode for PHP with code intelligence"
 
-HOMEPAGE="https://github.com/cjohansson/emacs-phps-mode"
+HOMEPAGE="https://forgejo.cvj.se/cjohansson/emacs-phps-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
