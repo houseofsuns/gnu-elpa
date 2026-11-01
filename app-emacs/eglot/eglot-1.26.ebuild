@@ -23,6 +23,7 @@ DEPEND="app-emacs/eldoc
 	app-emacs/flymake
 	app-emacs/jsonrpc
 	app-emacs/project
+	app-emacs/refactor
 	app-emacs/seq
 	app-emacs/xref"
 RDEPEND="app-emacs/eldoc
@@ -30,5 +31,6 @@ RDEPEND="app-emacs/eldoc
 	app-emacs/flymake
 	app-emacs/jsonrpc
 	app-emacs/project
+	app-emacs/refactor
 	app-emacs/seq
 	app-emacs/xref"
