@@ -1,13 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/project
-DESCRIPTION=project and imenu-based breadcrumb paths
+DEPEND=app-emacs/seq
+DESCRIPTION=Contact management package
 EAPI=8
-HOMEPAGE=https://elpa.gnu.org/packages/breadcrumb.html
+HOMEPAGE=https://github.com/girzel/ebdb
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/project >=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/seq >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://elpa.gnu.org/packages/breadcrumb-1.0.1.tar
+SRC_URI=https://elpa.gnu.org/packages/ebdb-0.8.23.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=43abcc00e131b2b7ad231a8ee8e7edb6
+_md5_=a4fd4ce79560362a1de5689a7f0b4f33
